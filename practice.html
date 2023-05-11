@@ -7,24 +7,39 @@
         .st{
             text-align: center;
             height:20px;
-            background-color: white;
-            border:1px solid white;
-            text-align: center;
-            color:black
+            
+            text-align: left;
+            color:white;
         }
         a{
             
             color:white;
-            background-color:rgb(47, 187, 5);
-            border:1px solid rgb(47, 187, 5);
+            background-color:rgb(0, 0, 109);
+            border:1px solid rgb(0, 0, 109);
             margin:0%;
             padding:10px 10px;
-            background-color: rgb(47, 187, 5);
+            background-color: rgb(0, 0, 109);
+            padding-left: 2.5%; 
+            padding-right: 2.5%;
         }
 
         a:hover{
-            background-color: darkgreen;
+            background-color: rgb(2, 2, 49);
         }
+
+        .st1{
+            right:10px;
+            left:10px;
+            width:100px;
+            margin:10px;
+        }
+
+        body{
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        
     </style>
 
     <body>
@@ -35,10 +50,10 @@
             </div>
 
             <div style="height:20px; padding:10px">
-                <a class="st"><b>scroll bar</b></a>
+                <p class="st" style="margin:10px;"><b>scroll bar</b></p>
             </div>
 
-            <div style="width=50%; height:40px; display:flex;">
+            <div style="width:100%; height:40px; display:flex;" class="st">
                 <a href="">Home</a>
                 <a href="">C</a>
                 <a href="">Java</a>
@@ -52,58 +67,75 @@
                 <a href="">XML</a>
                 <a href="">JSON</a>
             </div>
+
+            <div style="display:flex;">
+                <div style="width:70%; display:flex;">
+                    <div style="width:70%" class="st">
+                        <br>
+                        <br><b>Name:</b><i> Rebecca Liz Punnoose</i>
+                        <br><b>Address:</b><i> CHITHRALAYAM, Mallappally West, Pathanamthitta, Kerala</i>
+                        <br><b>About:</b><i> Currently doing Btech in Rajagiri (2nd year)</i>
+                        <br><br><br>
+                        <br><b>History:</b><br>
+                        <table class="st">
+                            <thead>
+                                <tr>
+                                    <td> <b>S.NO</b> </td>
+                                    <td> <b>Level Of Education</b> </td>
+                                    <td> <b>Year of Passing</b> </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> 1. </td>
+                                    <td> 10th CBSE </td>
+                                    <td> 2019 </td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td> 2. </td>
+                                    <td> 12th CBSE </td>
+                                    <td> 2021 </td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td> 3. </td>
+                                    <td> BTech in CS </td>
+                                    <td> 2025 </td>
+                                </tr>
+                            </tbody>
+                        </table>
             
+                    </div>
 
-            <div style="width:50%">
-                <div style="width:50%">
-                    <br><b>Name:</b><i> Rebecca Liz Punnoose</i>
-                    <br><b>Address:</b><i> CHITHRALAYAM, Mallappally West, Pathanamthitta, Kerala</i>
-                    <br><b>About:</b><i> Currently doing Btech in Rajagiri (2nd year)</i>
-                    <br><b>History:</b><br>
-                    <table class="st">
-                        <thead>
-                            <tr>
-                                <td> <b>S.NO</b> </td>
-                                <td> <b>Level Of Education</b> </td>
-                                <td> <b>Year of Passing</b> </td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td> 1. </td>
-                                <td> 10th CBSE </td>
-                                <td> 2019 </td>
-                            </tr>
-                        </tbody>
-                        <tbody>
-                            <tr>
-                                <td> 2. </td>
-                                <td> 12th CBSE </td>
-                                <td> 2021 </td>
-                            </tr>
-                        </tbody>
-                        <tbody>
-                            <tr>
-                                <td> 3. </td>
-                                <td> BTech in CS </td>
-                                <td> 2025 </td>
-                            </tr>
-                        </tbody>
-                    </table>
-        
+                    <div style="width:30%">
+                        <br><br><br>
+                        <img src="cmp.jpg" style="width:200px; height:200px" alt="image not found">
+                    </div>
+
                 </div>
-
-                <div style="width:50%">
-                    <img src="cmp.jpg" style="width:200px; height:200px" alt="image not found">
+                <div style="width:30%; height:40px; padding:10px;">
+                   
+                    <li class="st1"> 
+                        <a href="">Home</a><br>
+                        <a href="">About</a><br>
+                        <a href="">Gallery</a><br>
+                        <a href="">Contact</a><br>
+                    </li>
                 </div>
             </div>
 
-            <div style="width:50%; height:40px; display:flex;">
-                <a href="">Home</a><br>
-                <a href="">About</a><br>
-                <a href="">Gallery</a><br>
-                <a href="">Contact</a><br>
-            </div>
+           <div>
+            <br><br><br>
+            <p style="text-align: center; color:aliceblue"><b>Gallery</b></p>
+            <br>
+            <img src="cbg.jpg" alt="nf" style="width:20%; height:20%; margin:10px;">
+            <img src="cbg1.png" alt="nf" style="width:20%; height:10%; margin:10px;">
+            <img src="cbg2.avif" alt="nf" style="width:20%; height:10%; margin:10px;">
+            <img src="cbg4.jpg" alt="nf" style="width:30%; height:10%; margin:10px;">
+           </div>
 
         </section>
         
