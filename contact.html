@@ -5,10 +5,18 @@
         </head>
 
         <style>
-            body{
-                background: linear-gradient(indigo,teal) ;
+            .st{
+                background: linear-gradient(rgba(54, 0, 92, 0.856),rgba(0, 128, 128, 0.836)) ;
                 background-repeat: no-repeat; 
-                height: 100%;  
+                margin-left:30%;
+                margin-top:5%;
+                margin-bottom:5%;
+                padding-left:8%;
+                padding-right:8%;
+                padding-top:5px;
+                
+                width:25%;
+                height:80%;
             }
 
             h1{
@@ -17,24 +25,42 @@
                 font-family: serif;
             }
             label{
-                text-align: center;
+                text-align: left;
                 color:white;
+                font-size: 11px;
 
             }
+
+            
         </style>
         <body>
-            <br><br>
-            <h1>Contact Us</h1>
-            <p style="color:whitesmoke; text-align:center;">
-                <br><br>
-                Got a question? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
-                <br><br><br>
+           
+            <div class="st">
+                <h1 style="font-size: 40px;">Contact us</h1>
+                <p style="color:whitesmoke; text-align:center; font-size: 11px;">
+                    
+                    Got a question? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+                    <br><br>
+                </p>
+            
                 <label>Name*</label>
-                <br><br><br>
+                <br>
+                <input type="text" name="M" id="Msg" style="height:25px; width: 100%" placeholder="Your name">
+                <br><br>
                 <label>Email Address*</label>
-                <br><br><br>
-                <label>Contact</label>
-            </p>
+                <br>
+                <input type="text" name="Message" id="Msg" style="height:25px; width: 100%" placeholder="You email id">
+                <br><br>
+                <label>Message</label>
+                <br>
+                <input type="text" name="Message" id="Msg" style="height:100px; width: 100%" placeholder="Write your message">
+                <br><br>
+                <button style="font-size: 11px; background-color: rgb(0, 147, 233); width: 100%; color: white;">Send Message</button>
+               
+               
+
+            </div>
+            
 
         </body>
         
