@@ -11,86 +11,99 @@
         .st{
             background-color: white;
             text-align:left;
-            margin-top:50px;
-            margin-left:50px;
+            margin-top:10%;
+            margin-left:25%;
             padding-left:30px;
             padding-right:30px;
             padding-top:15px;
             padding-bottom:15px;
+            
 
-            height:50%;
-            width:60%;
+            height:45%;
+            width:40%;
 
         }
     </style>
     <body>
         <div class="st">
             <form action="#" method="post">
-                <p>Registration Form</p>
-                <br>
-                <div style="display:flex;">
-                    <div>
+
+                <div style="margin:10px;">
+                    <h3 style="font-size:15;">Registration Form</h3>
+                </div>
+               
+                <div style="display:flex; padding:5px; font-size:13px;">
+                    <div style="margin-right:20px;">
                     
                         <label>First Name
                             <br>
                             <input type="text" name="fn" style="height:20px; width:99%">
                         </label>
                     </div>
-                    <div>
+                    
+                    <div style="margin-right:20px;">
                         <label>Last Name
                             <br>
                             <input type="text" name="fn" style="height:20px; width:99%">
                         </label>
-                        <br><br>
-    
                     </div>
+                    <br>
                 </div>
                 
-                <div style="display:flex">
+
+
+                <div style="display:flex; padding:5px; font-size:13px;">
                     
-                    <div>
+                    <div style="margin-right:100px;">
                         <label>Birthday
                             <br>
-                            <input type="text" name="gender" style="height:20px; width:20%">
+                            <input type="date" name="gender" style="height:20px; width:100%">
                         </label>
                     </div>
                     
-                    <div>
+                    <div style="margin-right:20px;">
                         <label>Gender
                             <br>
                             <input type="radio" name="gender" value="female" />Female
                             <input type="radio" name="gender" value="male" />Male
                         </label>
-                        <br><br>
                     </div>
-
                 </div>
 
-                <div style="display:flex">
+
+
+                <div style="display:flex; padding:5px; font-size:13px;">
                     
-                    <div>
+                    <div style="margin-right:20px;">
                         <label>Email
                             <br>
-                            <input type="text" name="fn" style="height:20px; width:20%">
+                            <input type="text" name="fn" style="height:20px; width:99%">
                         </label>
                     </div>
                     
-                    <div>
+                    <div style="margin-right:20px;">
                         <label>Phone number
                             <br>
-                            <input type="text" name="fn" style="height:20px; width:20%">
+                            <input type="text" name="fn" style="height:20px; width:99%">
                         </label>
-                        <br><br>
-    
                     </div>
+                    <br>
 
                 </div>
                
                 
-                <div>
+                <div style="padding:5px; font-size:13px;">
                     <label>Subject
-                        <br>
-                        <input type="text" name="fn" style="height:20px; width:20%" placeholder="Choose Option">
+
+                    <select style="height:25px; width:100%" placeholder="Choose Option">
+                        <option value="CSE">Computer Engineering</option>
+                        <option value="Mech">Mechanical Engineering</option>
+                        <option value="Civil">Civil Engineering</option>
+                        <option value="EEE">Electrical and Electronics Engineering</option>
+                        <option value="ECE">Electronics and Communication Engineering</option>
+                        <option value="Archt">Architectural Engineering</option>
+                    </select>
+
                     </label>
                 </div>
                 
